@@ -1,0 +1,17 @@
+{
+  "skillDirectory": "skills/spiff-docs",
+  "skillName": "spiff-docs",
+  "status": "portable-with-adapter",
+  "agentSkillsSpec": "https://agentskills.io/specification",
+  "hosts": {
+    "generic": "Agent Skills loader plus file and optional runtime adapters; not built into SpiffArena",
+    "claude": "Filesystem/terminal adapter required for live validation",
+    "copilot": "Filesystem/terminal adapter required for live validation"
+  },
+  "limitations": [
+    "No Camunda/Zeebe runtime compatibility",
+    "Spiff version-specific parse and end-to-end tests required",
+    "No production deployment or tool execution verified"
+  ],
+  "origin": "https://github.com/camunda/skills/tree/main/skills/camunda-docs"
+}
